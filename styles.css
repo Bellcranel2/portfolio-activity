@@ -17,7 +17,7 @@ html {
 /* HEADER */
 .header-wrapper {
   display: flex;
-  align-items: center;
+  align-items: right;
   justify-content: space-between;
   max-width: 1300px;
   margin: auto;
@@ -31,7 +31,13 @@ button {
   padding: 5px 12px;
   cursor: pointer;
 }
-
+button {
+  background: #1a53ff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 12px;
+  cursor: pointer;
+}
 /* HERO */
 .hero {
   text-align: center;
